@@ -41,11 +41,8 @@
 </script>
 
 <style scoped lang="scss">
-    @import 'https://cdn.gsk567.com/unitegallery/css/unite-gallery.css';
-    @import 'https://cdn.gsk567.com/unitegallery/themes/video/skin-right-thumb.css';
-    
     #videos .header-card {
-        background-image: url('https://cdn.gsk567.com/images/hp-videos.jpg');
+        background-image: url('../../../public/assets/images/hp-videos.jpg');
     }
 
     .gallery-modal  {

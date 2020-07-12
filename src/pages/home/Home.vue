@@ -137,7 +137,7 @@
         width: 100%;
         height: auto;
         float: left;
-        background-image: url('https://cdn.gsk567.com/images/hp-img2.jpg');
+        background-image: url('../../../public/assets/images/hp-img2.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -149,7 +149,7 @@
         width: 100%;
         height: auto;
         float: left;
-        background-image: url('https://cdn.gsk567.com/images/hp-img3.jpg');
+        background-image: url('../../../public/assets/images/hp-img3.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -171,7 +171,7 @@
     }
 
     #main-section {
-        background-image: url('https://cdn.gsk567.com/images/logo.svg');
+        background-image: url('../../../public/assets/images/logo.svg');
         background-size: contain;
         margin: 30px;
         background-repeat: no-repeat;

@@ -49,7 +49,7 @@
 
 <style lang="scss">
     #snippets .header-card {
-        background-image: url('https://cdn.gsk567.com/images/hp-snippets.jpg');
+        background-image: url('../../../public/assets/images/hp-snippets.jpg');
     }
 
 .snipped-card {

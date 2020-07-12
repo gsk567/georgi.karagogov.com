@@ -54,7 +54,7 @@
 <style lang="scss">
     #competences {
         .header-card {
-            background-image: url('https://cdn.gsk567.com/images/hp-competences.jpg');
+            background-image: url('../../../public/assets/images/hp-competences.jpg');
         }
 
         .competence-card {

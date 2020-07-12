@@ -57,7 +57,7 @@
 <style lang="scss">
 #cf {
     .header-card {
-        background-image: url('https://cdn.gsk567.com/images/hp-contact-form.jpg');
+        background-image: url('../../../public/assets/images/hp-contact-form.jpg');
     }
 
     .contact-card {

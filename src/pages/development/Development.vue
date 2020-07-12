@@ -54,7 +54,7 @@
 <style lang="scss">
 #dev {
     .header-card {
-        background-image: url('https://cdn.gsk567.com/images/hp-img2.jpg');
+        background-image: url('../../../public/assets/images/hp-img2.jpg');
     }
 }
 .project-card {
