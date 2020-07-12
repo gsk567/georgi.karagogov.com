@@ -4,7 +4,6 @@ export default {
             name: 'Georgi Karagogov',
             title: 'Software engineer, geodetic engineer, designer',
             email: 'georgi.karagogov@gmail.com',
-            avatar: 'avatar.jpg',
             website: 'georgi.karagogov.com',
             mobile: '+359 882 055 121'
         },
@@ -143,7 +142,7 @@ export default {
                 description: 'Web application for matching people through specific matching algorithm.'
             },
             {
-                name: 'Emeraulde (personal)',
+                name: 'Emeraude (personal)',
                 description: 'Web framework for wrapping ASP.NET applications.'
             },
 

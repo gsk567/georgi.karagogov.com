@@ -15,6 +15,9 @@
                         <div id="name">
                             <h1 class="">{{cvData.header.name}}</h1>
                             <h2 class="">{{cvData.header.title}}</h2>
+                            <hr/>
+                            <p class="m-1 additional-info">Born in <span class="font-weight-bold">{{cvData.about.from}} on {{cvData.about.born}}</span></p>
+                            <p class="m-1 additional-info">Lives in <span class="font-weight-bold">{{cvData.about.livesIn}}</span></p>
                         </div>
 
                         <div id="contactDetails">
@@ -24,7 +27,6 @@
                                 <li>Mobile: <a class="font-weight-bold d-block mt-1" :href="'tel:' + cvData.header.mobile" target="_blank">{{cvData.header.mobile}}</a></li>
                             </ul>
                         </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
 
@@ -203,6 +205,10 @@
         h2 {
             font-size: 1.1em;
             margin-left: 2px;
+        }
+
+        .additional-info {
+            font-size: 0.8em;
         }
     }
 
