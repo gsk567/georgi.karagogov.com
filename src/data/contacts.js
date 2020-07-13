@@ -21,8 +21,8 @@ export default {
         {
             'title': 'LinkedIn',
             'image': '/assets/images/linkedin.png',
-            'value': 'georgi-karagogov-aa4250b0',
-            'link': 'https://www.linkedin.com/in/georgi-karagogov-aa4250b0/'
+            'value': 'georgi-karagogov',
+            'link': 'https://www.linkedin.com/in/georgi-karagogov/'
         },
         {
             'title': 'GitHub',

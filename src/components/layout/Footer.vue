@@ -25,7 +25,7 @@
             <div class="col-sm-6">
                 <ul class="social-media-menu">
                     <li class="hvr-pop"><a target="_blank" title="Facebook" href="https://www.facebook.com/gsk567">Facebook</a></li>
-                    <li class="hvr-pop"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/georgi-karagogov-aa4250b0/">LinkedIn</a></li>
+                    <li class="hvr-pop"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/georgi-karagogov/">LinkedIn</a></li>
                     <li class="hvr-pop"><a target="_blank" title="GitHub" href="https://github.com/gsk567">GitHub</a></li>
                     <li class="hvr-pop"><a target="_blank" title="Instagram" href="https://www.instagram.com/vranata/">Instagram</a></li>
                 </ul>
