@@ -4,6 +4,10 @@ import BootstrapVue from 'bootstrap-vue'
 import App from './App.vue'
 import { routes } from './routes';
 import vueHeadful from 'vue-headful';
+import VueAnalytics from 'vue-analytics';
+
+import {googleAnalyticsCode} from "./constants";
+
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
@@ -11,6 +15,11 @@ Vue.use(BootstrapVue);
 const router = new VueRouter({
     mode: 'history',
     routes
+});
+
+Vue.use(VueAnalytics, {
+    id: googleAnalyticsCode,
+    router
 });
 
 Vue.component('vue-headful', vueHeadful);

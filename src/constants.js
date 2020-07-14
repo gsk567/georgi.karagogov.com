@@ -1,0 +1,1 @@
+export const googleAnalyticsCode = 'UA-92025616-5';

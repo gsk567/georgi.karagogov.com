@@ -18,7 +18,8 @@
     "vue-headful": "^2.0.1",
     "vue-recaptcha": "^1.1.1",
     "vue-router": "^3.0.2",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "vue-analytics": "^5.22.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",

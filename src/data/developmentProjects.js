@@ -1,6 +1,15 @@
 export default {
     data: [
         {
+            "title": "Apogee99",
+            "url": "https://apogee99.com/",
+            "type": "CMS E-Commerce Application",
+            "image": "/assets/images/project-apogee99.jpg",
+            "technologies": [
+                "PHP", "ZenCart", "JavaScript", "HTML", "CSS", "MySql"
+            ]
+        },
+        {
             "title": "James Thomas Inc.",
             "url": "https://jamesthomasinc.com/",
             "type": "CMS Application",
