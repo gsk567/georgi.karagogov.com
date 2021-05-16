@@ -12,9 +12,12 @@
         <section id="section-sb">
             <div class="wrap">
                 <div class="section-content float-right">
-                    <h2>SMART BUSINESS</h2>
-                    <p>Nowadays, people often search for the right idea for their own business. Primarily driven by
-                        money, they cannot realize what opportunity is missed when digital aspects are skipped.</p>
+                    <h2>DEVELOPER EXPERIENCE</h2>
+                    <p>
+                      Software development is so amazing but requires lots of work to realize your idea.
+                      So that's why Definux has been born. A software organization, mainly focused on
+                      the development of high-quality open-source solutions. <a href="https://definux.io/" target="_blank" class="text-success">Learn more.</a>
+                    </p>
                 </div>
             </div>
         </section>

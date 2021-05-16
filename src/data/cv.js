@@ -14,9 +14,16 @@ export default {
         },
         workExperience: [
             {
+                company: 'Scalefocus AD',
+                position: 'Software Engineer',
+                fromTo: '01/2021 – Ongoing',
+                description: 'Developing and maintaining enterprise software solutions focused on .NET technology and ' +
+                    'corresponding front-end technologies.'
+            },
+            {
                 company: 'Codific Ltd.',
                 position: 'Software Engineer',
-                fromTo: '01/2018 – Ongoing',
+                fromTo: '01/2018 – 01/2021',
                 description: 'Developing and maintaining web, desktop and mobile applications ' +
                     'based on C# (ASP.NET, ASP.NET Core, WPF, UWP, Xamarin). Maintaining existing web applications based on ' +
                     'PHP (Zend Framework, Symfony). Design visual identity materials through Adobe Photoshop and ' +
@@ -145,7 +152,10 @@ export default {
                 name: 'Emeraude (personal)',
                 description: 'Web framework for wrapping ASP.NET applications.'
             },
-
+            {
+                name: 'STRONGER.BG (personal)',
+                description: 'Web application (Emeraude based) for storing and managing workout assets.'
+            },
         ],
         languages: [
             {
@@ -176,6 +186,16 @@ export default {
                 name: 'Digital marketing tracking systems (Course for entrepreneurs) @ Business Incubator, Burgas',
                 represent: 'Business Incubator, Burgas',
                 period: '2019-2020'
+            },
+            {
+                name: 'HTML & CSS Course @ Business Incubator, Burgas',
+                represent: 'Business Incubator, Burgas',
+                period: '2019'
+            },
+            {
+                name: 'WordPress Single Day Workshop @ Business Incubator, Burgas',
+                represent: 'Business Incubator, Burgas',
+                period: '2019'
             },
             {
                 name: 'Smart Start with ASP.NET Core mvc567 @ Business Incubator, Burgas',

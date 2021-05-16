@@ -1,67 +1,34 @@
 export default {
     data: [
         {
+            "title": "STRONGER.BG",
+            "url": "https://stronger.bg/",
+            "type": "Custom Web Application",
+            "image": "/assets/images/project-stronger.jpg",
+            "technologies": [
+                "C#", ".NET Core", "PostgreSQL", "JavaScript", "Vue.js", "Emeraude Framework"
+            ],
+            "isTop": true
+        },
+        {
+            "title": "Definux",
+            "url": "https://definux.io/",
+            "type": "Open Source Software Organization",
+            "image": "/assets/images/project-definux.jpg",
+            "technologies": [
+                "C#", ".NET Core", "MS SQL Server", "PostgreSQL", "JavaScript", "Vue.js"
+            ],
+            "isTop": true
+        },
+        {
             "title": "Apogee99",
             "url": "https://apogee99.com/",
             "type": "CMS E-Commerce Application",
             "image": "/assets/images/project-apogee99.jpg",
             "technologies": [
                 "PHP", "ZenCart", "JavaScript", "HTML", "CSS", "MySql"
-            ]
-        },
-        {
-            "title": "James Thomas Inc.",
-            "url": "https://jamesthomasinc.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-jamesthomasinc.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Avital Party Bus",
-            "url": "http://avitalchicagopartybus.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-avitalpartybus.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "United Global Carrier Inc.",
-            "url": "http://unitedglobalcarrier.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-united-global-carrier.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Aquadream Pools",
-            "url": "https://www.aquadreampools.eu/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-aquadreampools.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "VA Victory",
-            "url": "https://vavictory.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-vavictory.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Adjusting 101",
-            "url": "https://adjusting101.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-adjusting101.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
+            ],
+            "isTop": false
         },
         {
         "title": "VueJS vs Blazor",
@@ -70,61 +37,28 @@ export default {
         "image": "/assets/images/project-vuejs-blazor.jpg",
         "technologies": [
             "C#", "ASP.NET", ".Net Core", "Blazor", "VueJS", "JavaScript", "HTML", "CSS"
-        ]
+        ],
+            "isTop": false
     },
         {
             "title": "Workoutch",
             "url": "https://www.workoutch.com/",
-            "type": "Custom Web Application",
+            "type": "Custom Web Application [Closed]",
             "image": "/assets/images/project-workoutch.jpg",
             "technologies": [
                 "C#", "ASP.NET", ".NET Framework", "MS SQL Server", "AngularJS", "jQuery", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Chakumche",
-            "url": "https://chakumche.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-chakumche.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Birka",
-            "url": "https://www.birka.bg/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-birka.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "Cercadelmar8",
-            "url": "https://cercadelmar8.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-cercadelmar8.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
-        },
-        {
-            "title": "AW Auto Repair",
-            "url": "http://www.aw-autorepair.com/",
-            "type": "CMS Application",
-            "image": "/assets/images/project-awautorepair.jpg",
-            "technologies": [
-                "PHP", "WordPress", "JavaScript", "HTML", "CSS"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "eCompetitive",
             "url": "http://ecompetitive.apogee99.com/",
-            "type": "Desktop Application",
+            "type": "Desktop Application [Deprecated]",
             "image": "/assets/images/project-ecompetitive.jpg",
             "technologies": [
                 "C#", "ASP.NET", ".NET Framework", "SQLite", "MS SQL Server", "Windows Forms", "HTML"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Geodetic Network Adjustment",
@@ -133,7 +67,8 @@ export default {
             "image": "/assets/images/project-plannetwork.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Geodetic Leveling Network Adjustment",
@@ -142,7 +77,8 @@ export default {
             "image": "/assets/images/project-levelingnetwork.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Raster 2 Vector",
@@ -151,7 +87,8 @@ export default {
             "image": "/assets/images/project-raster2vector.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Hydrography",
@@ -160,7 +97,8 @@ export default {
             "image": "/assets/images/project-hidrography.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Shortest Path",
@@ -169,7 +107,8 @@ export default {
             "image": "/assets/images/project-shortestpath.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Noise Cleaner",
@@ -178,7 +117,8 @@ export default {
             "image": "/assets/images/project-noisecleaner.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         },
         {
             "title": "Volume Calculator",
@@ -187,7 +127,8 @@ export default {
             "image": "/assets/images/project-volume.jpg",
             "technologies": [
                 "MATLAB"
-            ]
+            ],
+            "isTop": false
         }
     ]
 }

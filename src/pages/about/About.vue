@@ -1,6 +1,6 @@
 <template>
     <div>
-        <vue-headful 
+        <vue-headful
             title="About • Georgi Karagogov"
             description="Georgi Karagogov information"
             image="https://cdn.gsk567.com/images/logo.jpg"/>
@@ -15,7 +15,7 @@
                     <p class="title">Software Engineer, Geodetic Engineer, Designer</p>
                     <p class="info">People often think that when somebody knows much stuff he/she knows nothing. Sometimes they are right, but when this 'much' are in perfect synchronization the result is stunning. Especially when this 'much' is always in maintenance.</p>
                     <img class="w-100 border-item mb-4 mt-3" src="/assets/images/gk-image2.jpg"/>
-                    <p class="info">Knowledge without experience is like geodesy without coordinates, like software without algorithms, like design without shape and colors. I have spent a large amount of time to learn the best practices from the best in the business. My knowledge is built in the environment of UACEG and Ghent University but is nothing without the experience which I accumulated in ESRI Bulgaria, EIS, ZenitGeo, Solitech, Apogee99 and still do in Codific.</p>
+                    <p class="info">Knowledge without experience is like geodesy without coordinates, like software without algorithms, like design without shape and colors. I have spent a large amount of time to learn the best practices from the best in the business. My knowledge is built in the environment of UACEG and Ghent University but is nothing without the experience which I accumulated in ESRI Bulgaria, EIS, ZenitGeo, Solitech, Apogee99, Codific and still do in Scalefocus.</p>
                 </b-col>
             </b-row>
             <div class="row">
