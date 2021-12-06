@@ -12,11 +12,12 @@
         <section id="section-sb">
             <div class="wrap">
                 <div class="section-content float-right">
-                    <h2>DEVELOPER EXPERIENCE</h2>
+                    <h2>Emeraude Framework</h2>
                     <p>
                       Software development is so amazing but requires lots of work to realize your idea.
-                      So that's why Definux has been born. A software organization, mainly focused on
-                      the development of high-quality open-source solutions. <a href="https://definux.io/" target="_blank" class="text-success">Learn more.</a>
+                      So that's why Emeraude has been born. An open-source solution, created to help
+                      developers and start-ups invest more into business instead of repeatable tasks.
+                      <a href="https://emeraude.dev/" target="_blank" class="text-success">Learn more.</a>
                     </p>
                 </div>
             </div>

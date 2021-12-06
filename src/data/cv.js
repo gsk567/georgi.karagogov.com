@@ -156,6 +156,10 @@ export default {
                 name: 'STRONGER.BG (personal)',
                 description: 'Web application (Emeraude based) for storing and managing workout assets.'
             },
+            {
+                name: 'Post Settlement',
+                description: 'Web application for processing money flows.'
+            },
         ],
         languages: [
             {

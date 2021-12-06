@@ -1,6 +1,10 @@
 export default {
     data: [
         {
+            "title": "Emeraude Framework - Logo Design",
+            "src": "/assets/images/emeraude-framework.jpg"
+        },
+        {
             "title": "Dave Bown Project - Circle Girl",
             "src": "/assets/images/dbp1.jpg"
         },

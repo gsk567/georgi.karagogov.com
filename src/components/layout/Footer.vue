@@ -22,16 +22,21 @@
 
         </div>
         <div class="row footer-section-bottom">
-            <div class="col-sm-6">
-                <ul class="social-media-menu">
+            <div class="col-sm-4 d-flex">
+                <ul class="social-media-menu my-auto">
                     <li class="hvr-pop"><a target="_blank" title="Facebook" href="https://www.facebook.com/gsk567">Facebook</a></li>
                     <li class="hvr-pop"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/georgi-karagogov/">LinkedIn</a></li>
                     <li class="hvr-pop"><a target="_blank" title="GitHub" href="https://github.com/gsk567">GitHub</a></li>
                     <li class="hvr-pop"><a target="_blank" title="Instagram" href="https://www.instagram.com/vranata/">Instagram</a></li>
                 </ul>
             </div>
-            <div class="col-sm-6 credits">
-                <p>© {{(new Date()).getFullYear()}} - Georgi Karagogov. All rights reserved.</p>
+          <div class="col-sm-4 d-flex">
+            <a href="https://www.netlify.com" class="mb-3 mx-auto my-sm-auto">
+              <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+            </a>
+          </div>
+            <div class="col-sm-4 credits d-flex">
+                <p class="my-auto w-100">© {{(new Date()).getFullYear()}} - Georgi Karagogov. All rights reserved.</p>
             </div>
         </div>
     </footer>

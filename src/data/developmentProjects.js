@@ -11,12 +11,12 @@ export default {
             "isTop": true
         },
         {
-            "title": "Definux",
-            "url": "https://definux.io/",
-            "type": "Open Source Software Organization",
-            "image": "/assets/images/project-definux.jpg",
+            "title": "Emeraude Framework",
+            "url": "https://emeraude.dev/",
+            "type": "Open Source Framework",
+            "image": "/assets/images/project-emeraude-framework.jpg",
             "technologies": [
-                "C#", ".NET Core", "MS SQL Server", "PostgreSQL", "JavaScript", "Vue.js"
+                "C#", ".NET 6", "MS SQL Server", "PostgreSQL", "TypeScript", "JavaScript", "Vue.js", "Vite"
             ],
             "isTop": true
         },
