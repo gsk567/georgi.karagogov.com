@@ -1,6 +1,6 @@
 <template>
     <div class="row" id="design">
-        <vue-headful 
+        <vue-headful
             title="Design • Georgi Karagogov"
             description="Design projects list"
             image="https://cdn.gsk567.com/images/logo.jpg"/>
@@ -11,29 +11,14 @@
                 </div>
             </div>
         </div>
-        <div class="row pl-4 pr-4 pt-3 pb-3" v-if="projects.length > 0">
-            <div v-for="(project, index) in projects" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 pb-2 pt-2 project-card">
-                <div class="card design-card">
-                    <div class="design-card-image" :style="'background-image: url(' + project.src + ')'"></div>
-                    <div class="card-body p-2 text-center">
-                        <h4 class="card-title font-weight-bold mb-0">{{project.title}}</h4>
-                    </div>
-                    <button @click="selectedPicture = project" target="_blank" class="btn btn-view hvr-pop">VIEW</button>
-                </div>
-            </div>
+        <div class="w-100 pl-4 pr-4 pt-3 pb-3" v-if="projects.length > 0">
+          <gallery id="design-gallery" :images="projects"></gallery>
         </div>
-        <modal :title="selectedPicture.title" v-if="selectedPicture != null" @close="selectedPicture = null" button="Close">
-            <template slot="body">
-                <div class="w-100 text-center gallery-modal">
-                    <img :src="selectedPicture.src"/>
-                </div>
-            </template>
-        </modal>
     </div>
 </template>
 
 <script>
-    import Modal from "../../components/misc/Modal";
+import Gallery from "vue-cover-gallery"
     import designProjects from "../../data/designProjects";
     export default {
         data() {
@@ -42,7 +27,7 @@
             }
         },
         components: {
-            Modal
+          Gallery
         },
         computed: {
             projects() {
@@ -55,6 +40,20 @@
 <style scoped lang="scss">
     #design .header-card {
         background-image: url('../../../public/assets/images/hp-img3.jpg');
+    }
+
+    ::v-deep {
+      .more-btn {
+        font-weight: bold;
+        border-radius: 0;
+        background: white !important;
+        color: black !important;
+        border: 1px solid black;
+
+        &:hover {
+          background: #ddd !important;
+        }
+      }
     }
 
     .gallery-modal  {
@@ -135,6 +134,8 @@
         font-weight: bold;
         border-radius: 0px;
     }
+
+
 
     img {
         border-radius: 0px;

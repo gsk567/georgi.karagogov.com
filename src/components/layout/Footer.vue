@@ -23,7 +23,7 @@
         </div>
         <div class="row footer-section-bottom">
             <div class="col-sm-4 d-flex">
-                <ul class="social-media-menu my-auto">
+                <ul class="social-media-menu my-auto mx-auto mx-sm-0">
                     <li class="hvr-pop"><a target="_blank" title="Facebook" href="https://www.facebook.com/gsk567">Facebook</a></li>
                     <li class="hvr-pop"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/georgi-karagogov/">LinkedIn</a></li>
                     <li class="hvr-pop"><a target="_blank" title="GitHub" href="https://github.com/gsk567">GitHub</a></li>
@@ -43,12 +43,11 @@
 </template>
 
 <script>
-    import jQuery from 'jquery';
     export default {
         methods: {
-            scrollToTop: function() {
-				jQuery('html, body').animate({scrollTop:0}, 'slow');
-			}
+          scrollToTop: function () {
+            window.scrollTo(0, 0);
+          }
         }
     }
 </script>

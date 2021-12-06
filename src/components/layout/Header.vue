@@ -10,9 +10,9 @@
                              to="/design">Design
                 </router-link>
             </div>
-            <a class="menu hvr-pop" href="javascript:;"></a>
+            <a class="menu hvr-pop" :class="{ 'open': openMenu }" @click="$emit('menu:clicked')" href="javascript:void(0);"></a>
         </header>
-        <div class="main-submenu">
+        <div class="main-submenu" :class="{ 'open': openMenu }">
             <div class="submenu-wrap">
                 <router-link @click.native="scrollToTop" active-class="active" class="submenu-anchor-links" tag="a"
                              title="Development" to="/development">Development
@@ -26,11 +26,16 @@
 </template>
 
 <script>
-    import jQuery from 'jquery';
     export default {
+      props: {
+        openMenu: {
+          type: Boolean,
+          required: true
+        }
+      },
         methods: {
             scrollToTop: function () {
-                jQuery('html, body').animate({scrollTop: 0}, 'slow');
+                window.scrollTo(0, 0);
             }
         }
     }

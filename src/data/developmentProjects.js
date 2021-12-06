@@ -31,16 +31,6 @@ export default {
             "isTop": false
         },
         {
-        "title": "VueJS vs Blazor",
-        "url": "https://github.com/gsk567/VueJS-vs-Blazor",
-        "type": "Custom Web Application [Demo]",
-        "image": "/assets/images/project-vuejs-blazor.jpg",
-        "technologies": [
-            "C#", "ASP.NET", ".Net Core", "Blazor", "VueJS", "JavaScript", "HTML", "CSS"
-        ],
-            "isTop": false
-    },
-        {
             "title": "Workoutch",
             "url": "https://www.workoutch.com/",
             "type": "Custom Web Application [Closed]",

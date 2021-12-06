@@ -12,7 +12,7 @@
         <section id="section-sb">
             <div class="wrap">
                 <div class="section-content float-right">
-                    <h2>Emeraude Framework</h2>
+                    <h2>EMERAUDE FRAMEWORK</h2>
                     <p>
                       Software development is so amazing but requires lots of work to realize your idea.
                       So that's why Emeraude has been born. An open-source solution, created to help
