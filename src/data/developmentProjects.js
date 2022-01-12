@@ -6,7 +6,7 @@ export default {
             "type": "Custom Web Application",
             "image": "/assets/images/project-stronger.jpg",
             "technologies": [
-                "C#", ".NET Core", "PostgreSQL", "JavaScript", "Vue.js", "Emeraude Framework"
+                "C#", ".NET 6" , "ASP.NET", "PostgreSQL", "JavaScript", "Vue.js", "Nuxt.js", "Emeraude Framework", "Node"
             ],
             "isTop": true
         },

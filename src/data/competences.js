@@ -3,14 +3,14 @@ export default {
         "name": "Desktop Applications",
         "icon": "/assets/images/desktop-app-icon.png",
         "technologies": [
-            "C#", ".Net Framework", "WPF", "Windows Forms", "SQLite", "MS SQL Server Express", "PostgreSQL"
+            "C#", ".NET Framework", "WPF", "Windows Forms", "SQLite", "MS SQL Server Express", "PostgreSQL"
         ]
     },
         {
             "name": "Web Applications",
             "icon": "/assets/images/web-app-icon.png",
             "technologies": [
-                "C#", ".Net Framework", ".Net Core", "ASP.NET", "PHP", "MS SQL Server", "PostgreSQL", "MySQL", "JavaScript", "AngularJS", "VueJS"
+                "C#", ".NET Framework", ".NET Core", ".NET", "ASP.NET", "PHP", "MS SQL Server", "PostgreSQL", "MySQL", "JavaScript", "Angular", "VueJS"
             ]
         },
         {
@@ -24,7 +24,7 @@ export default {
             "name": "Mobile Applications",
             "icon": "/assets/images/mobile-app-icon.png",
             "technologies": [
-                "C#", "Xamarin", ".Net Core", "SQLite"
+                "C#", "Xamarin", ".NET", "SQLite"
             ]
         },
         {
