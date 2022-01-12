@@ -95,9 +95,13 @@
                         </div>
 
                         <div class="sectionContent">
-                            <article v-for="(project, projectIndex) in cvData.projects" :key="'project-' + projectIndex">
-                                <h3 class="font-weight-bold">{{project.name}}</h3>
-                                <p>{{project.description}}</p>
+                            <article v-for="(project, projectIndex) in cvData.projects" :key="'project-' + projectIndex" class="mb-3">
+                                <h3 class="font-weight-bold d-flex">
+                                  <a class="text-success my-auto" v-if="project.url" :href="project.url" target="_blank">{{ project.name }}</a>
+                                  <span class="my-auto" v-else>{{ project.name }}</span>
+                                  <span class="badge badge-info p-1 ml-1" v-if="project.personal">personal</span>
+                                </h3>
+                                <p class="m-0">{{project.description}}</p>
                             </article>
                         </div>
                     </section>

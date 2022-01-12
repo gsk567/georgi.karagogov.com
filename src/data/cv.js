@@ -43,7 +43,7 @@ export default {
                 fromTo: '03/2016 – 02/2017',
                 description: 'Geodetic measurements, 3D LiDAR measurements, 2D/3D processing and GIS analysis based on ' +
                     'whole technology stack of Trimble Navigation. Creation and maintaining processing scripts for ' +
-                    'geodetic automatization. Professional courses for 3D laser scanners.'
+                    'geodetic automation. Professional courses for 3D laser scanners.'
             },
             {
                 company: 'EIS Construction Company Ltd.',
@@ -79,13 +79,31 @@ export default {
             {
                 type: 'Programming Languages',
                 items: [
-                    'C#', 'MATLAB', 'JavaScript', 'PHP', 'SQL', 'HTML', 'CSS', 'LESS', 'SASS', 'XAML'
+                    'C#', 'MATLAB', 'JavaScript', 'TypeScript', 'PHP', 'SQL', 'HTML', 'CSS', 'LESS', 'SASS', 'XAML'
                 ]
             },
             {
                 type: 'Programming Frameworks',
                 items: [
-                    '.NET Framework', '.NET Core', 'ASP.NET MVC', 'Entity Framework', 'WPF', 'UWP', 'Xamarin', 'Windows Forms', 'jQuery', 'VueJS', 'AngularJS'
+                    '.NET Framework', '.NET Core', '.NET', 'ASP.NET MVC', 'Entity Framework', 'WPF', 'UWP', 'Xamarin', 'Windows Forms', 'jQuery', 'VueJS', 'NuxtJS', 'AngularJS', 'Angular', 'Blazor'
+                ]
+            },
+            {
+                type: 'Platforms',
+                items: [
+                    'WordPress', 'ZenCart'
+                ]
+            },
+            {
+                type: 'Web Servers',
+                items: [
+                    'IIS', 'NGINX', 'Apache'
+                ]
+            },
+            {
+                type: 'Operation Systems',
+                items: [
+                    'Windows', 'Linux', 'MacOS'
                 ]
             },
             {
@@ -109,20 +127,17 @@ export default {
         ],
         projects: [
             {
-                name: 'eCompetitive (personal)',
-                description: 'Desktop Software for web scraping of e-commerce platforms',
-            },
-            {
-                name: 'Workoutch (personal)',
-                description: 'Web application – storage for exercises and workouts'
+                name: 'eCompetitive',
+                description: 'Desktop Software for web scraping of e-commerce platforms.',
+                url: 'https://ecompetitive.apogee99.com/'
             },
             {
                 name: 'PAVEL',
-                description: 'Web & Mobile Platform for booking limos and cars'
+                description: 'Web & Mobile Platform for booking limos and cars.'
             },
             {
                 name: 'Videolab',
-                description: 'Platform for secure storage of media content'
+                description: 'Platform for secure storage of media content.'
             },
             {
                 name: 'Codific Video Recorder (CVR) Desktop',
@@ -141,20 +156,24 @@ export default {
                 description: 'Desktop application for video recording, encryption and uploading to Videolab.'
             },
             {
-                name: 'mvc567 (personal)',
-                description: 'Web framework for wrapping ASP.NET applications.'
-            },
-            {
                 name: 'MatchMaker',
                 description: 'Web application for matching people through specific matching algorithm.'
             },
             {
-                name: 'Emeraude (personal)',
-                description: 'Web framework for wrapping ASP.NET applications.'
+                name: 'Gazeto',
+                description: 'Web application for doctors surveys about sensitive data collection and structuring.'
             },
             {
-                name: 'STRONGER.BG (personal)',
-                description: 'Web application (Emeraude based) for storing and managing workout assets.'
+                name: 'Emeraude',
+                description: 'A lightweight ASP.NET framework for creating successful products.',
+                url: 'https://emeraude.dev/',
+                personal: true
+            },
+            {
+                name: 'STRONGER.BG',
+                description: 'Web application (Emeraude based) for storing and managing workout assets.',
+                url: 'https://stronger.bg/',
+                personal: true
             },
             {
                 name: 'Post Settlement',
