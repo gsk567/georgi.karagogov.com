@@ -27,6 +27,13 @@ export default {
             "code": "ZqYfOf1yrhA",
             "image": "https://i.ytimg.com/vi/ZqYfOf1yrhA/sddefault.jpg",
             "thumbnail": "https://i.ytimg.com/vi/ZqYfOf1yrhA/mqdefault.jpg"
+        },
+        {
+            "title": "Multi client runtime generation with ASP.NET",
+            "description": "Runtime generation presentation (representing Scalefocus) @ BurgasConf, Burgas 2021",
+            "code": "v6Wpja22OPQ",
+            "image": "https://i.ytimg.com/vi/v6Wpja22OPQ/sddefault.jpg",
+            "thumbnail": "https://i.ytimg.com/vi/v6Wpja22OPQ/mqdefault.jpg"
         }
     ]
 }
